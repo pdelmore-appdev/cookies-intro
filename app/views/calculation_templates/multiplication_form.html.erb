@@ -9,3 +9,8 @@
 
   <button>Multiply!</button>
 </form>
+
+<p>
+Previous multiplication:
+<%= cookies.fetch(:multiplication_first) %> x <%= cookies.fetch(:multiplication_second) %> = <%= cookies.fetch(:multiplication_result) %>
+</p>
